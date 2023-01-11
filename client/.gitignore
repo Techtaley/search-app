@@ -28,8 +28,6 @@ yarn-error.log*
 
 #files
 package-lock.json
-package.json
-
 
 /src/__mocks__
 /src/components/Search.test.js
