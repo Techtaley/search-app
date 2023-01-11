@@ -1,0 +1,286 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  display: flex;
+  background-color: #666;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 5px;
+  color: #fff;
+}
+
+.post-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-navigation nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 40px 0px;
+}
+
+.nav-links {
+  color: #fff;
+  padding: 0 10px;
+  text-decoration: none;;
+}
+
+/* .nav-flex-links a:link, .nav-flex-links a:visited, .nav-flex-links a:active { 
+    color: #fff;
+}
+
+.nav-flex-links a:hover {
+  color: blue;
+}
+*/
+
+.page-nav-links {
+  color: #000; 
+  border: 1px solid #666; 
+  background-color:  #666;
+  padding: 5px 5px;
+  margin: 0 20px;
+  border-radius: 10%;
+  text-decoration: none;
+  width: 100px;
+  color: #fff;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.add-form, .edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+}
+
+.add-form-input, .edit-form-input {
+  min-height: 30px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+
+.add-form-textarea, .edit-form-textarea {
+  min-height: 150px;  
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.add-form-textarea {
+  min-height: 80px;
+}
+
+.single-post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%; 
+}
+
+.single-post-form-input {
+  height: 30px;
+  width: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 3%;
+  text-align: center;
+  border: none;
+}
+
+.single-post-form-textarea {
+  min-height: 130px;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.single-post-link-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.search-form-label {
+  padding-right: 2%; 
+}
+
+.search-form-input {
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.comment-textarea {
+  min-height: 100px;  
+  width: 80%;
+  font-size: 15px;
+  margin: 5px;
+  border: 1px solid black;  
+}
+.form-header {
+  margin-bottom: 25px;
+}
+
+.links{
+  text-decoration: none;
+}
+
+a.links:link, a.links:visited, a.links:active {
+  color: #fff;
+}
+
+a.links:hover {
+  color: #999;
+}
+
+.search-form-button, 
+.edit-form-button {
+  height: 35px;
+  width: 75px;
+  padding: 0;
+  background-color:  #666;
+  border:  #666;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px; 
+  margin-bottom: 30px;
+}
+
+.component-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px;
+}
+
+.search-component-card {
+  height: 250px;
+  width: 100%;
+}
+
+.component-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: 1px solid #000;
+  box-shadow: 10px 5px 5px #999;
+  border-radius: 5%;
+  margin: 30px;
+  padding: 1%; 
+}
+
+.component-card-userid, 
+.component-card-title, 
+.component-card-body {
+  text-align: center;
+}
+
+.removeunderline{
+  text-decoration: none;
+}
+
+
+.postlist-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px;
+}
+
+button {
+  margin: 0px 3px;
+  border-radius: 3px;
+  background-color: #666;
+  color: #fff;
+}
+
+.button-div {
+  margin-bottom: 10px;
+}
+
+.about-ul {
+  text-align: left;
+}
+
+.page-center {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} 
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+

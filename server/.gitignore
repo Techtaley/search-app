@@ -1,0 +1,7 @@
+/backup
+/node_modules
+
+#files
+package-lock.json
+package.json
+server.js
