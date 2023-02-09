@@ -42,7 +42,7 @@ export default function Search() {
    
   return (
     <div className="search-component-card">
-      <h1 className="form-header">Look up a post</h1>
+      <h1 className="form-header">Search for a post</h1>
         <form className="search-form" data-testid="search-form" onSubmit={handleSubmit}>
           <input 
             data-testid="search-form-input"
