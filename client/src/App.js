@@ -35,6 +35,8 @@ export default function App() {
               visible={true}
             /> 
             </div>}>
+
+              <h1>Welcome!</h1>
             <Routes>
               <Route path="/" element={<Navigate replace to="/search-app" />} />
               <Route path="/about" element={<About />} />

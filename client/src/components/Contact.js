@@ -2,7 +2,11 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="page-center">Contact</div>
+    <div>
+        <h1>Please subscribe to my channel to see the full tutorial.</h1>
+
+        <h2>Thank you for visiting!</h2>
+    </div>
   )
 }
 

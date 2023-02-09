@@ -5,7 +5,8 @@ import { Outlet } from 'react-router-dom'
 export default function Posts() {
   return (
     <div className="page-navigation">
-        <h1>Search Application</h1>
+        <h1>React Redux CRUD APPLICATION</h1>
+        <p>Click to add, search, or view posts? </p>
 
         <nav>
             <NavLink className="page-nav-links" to="/posts/add-post">add</NavLink>
