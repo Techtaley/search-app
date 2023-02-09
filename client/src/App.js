@@ -34,7 +34,7 @@ export default function App() {
               wrapperStyle=""
               visible={true}
             /> 
-          </div>}>
+            </div>}>
             <Routes>
               <Route path="/" element={<Navigate replace to="/search-app" />} />
               <Route path="/about" element={<About />} />

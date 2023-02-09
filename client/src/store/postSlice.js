@@ -7,7 +7,7 @@ const initialState = {
     loading: false,
     error: null,
     changed: false,
-    user: 'taley'
+    user: 'coder'
 }
 
 const postSlice = createSlice({

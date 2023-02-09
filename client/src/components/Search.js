@@ -16,7 +16,7 @@ export default function Search() {
   const dispatch = useDispatch()
 
     useEffect(() => {
- 
+
       if(changed) {        
         dispatch(getPostsAsync())  
       }              
