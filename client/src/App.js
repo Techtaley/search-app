@@ -36,7 +36,7 @@ export default function App() {
             /> 
             </div>}>
 
-              <h1>Welcome!</h1>
+              <h1>React Redux CRUD Application</h1>
             <Routes>
               <Route path="/" element={<Navigate replace to="/search-app" />} />
               <Route path="/about" element={<About />} />
