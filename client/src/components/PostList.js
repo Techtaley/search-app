@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
   
         return (
             <div>
-                <h1>Post List</h1>
+                <h1 className="form-header">List of Posts</h1>
 
                 <article className="component-div"> 
                     {postItems?.map(post => 
