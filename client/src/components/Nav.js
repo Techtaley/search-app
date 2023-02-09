@@ -6,8 +6,8 @@ export default function MainNav() {
     <header className="vertical-center">
         <h1><a className="links" href="/search-app">CRUD App</a></h1>
         <nav className="nav-flex">
-          <NavLink className="nav-links" to="/about">about</NavLink>
           <NavLink className="nav-links" to="/posts">posts</NavLink>
+          <NavLink className="nav-links" to="/about">about</NavLink>
           <NavLink className="nav-links" to="/contact">contact</NavLink>
         </nav>
   </header>
