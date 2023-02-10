@@ -20,9 +20,9 @@ const PostList = lazy(() => import('./components/PostList'));
 export default function App() {
   return (
     <div className="App">      
-        <Nav />
-
         <Router>
+          <Nav />
+
           <Suspense fallback={<div className="page-center">
             <BallTriangle
               height={100}
